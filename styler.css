@@ -1,0 +1,166 @@
+html{
+        scroll-behavior: smooth;
+}
+
+html, body{
+        margin:0;
+        padding:0;
+        width:100%;
+        background-color:DarkSlateGray;
+}
+
+body{
+        /*background-image: linear-gradient(-90deg, DarkSlateGray, PowderBlue);*/
+
+}
+
+.clr{
+        clear:both;
+}
+
+nav{
+        position:sticky;
+        width:100%;
+        z-index:99;
+        height: 5vw;
+        background-color:white;
+}
+
+.stick{
+        box-shadow: 5px 2px 5px DarkSlateGray;
+}
+
+nav ul{
+        float:left;
+        padding-top:0.2vw;
+        padding-left:1vw;
+        font-family:Century Gothic;
+        font-size:1vw;
+        text-align: center;
+        color:AliceBlue;
+        margin-top:0vw;
+        color:DarkTurquoise;
+}
+
+.MS{
+        float:left;
+        width:4vw;
+        height:4vw;
+        margin:0.3vw 0.3vw;
+        border: 0.1vw AliceBlue solid;
+        border-radius:0.5vw;
+}
+
+/* Cursor */
+.txt-type > .txt{
+        border-right: 0.2rem solid Coral;
+}
+
+.txt-type{
+        font-family:FreeMono, monospace;
+        font-size: 1.5vw;
+        color:Coral;
+}
+
+.question{
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.question h2{
+        margin-top:3vw;
+        margin-left: auto;
+        margin-right:auto;
+        font-family:Century Gothic;
+        font-size:1vw;
+        text-align: center;
+        color:AliceBlue;
+        font-size:1.3vw;
+}
+
+.threeMusk{
+        display:flex;
+        width: 50%;
+        margin:auto;
+        justify-content: center;
+}
+
+.Excel {
+        flex:2;
+        order:2;
+        margin-top:-3vw;
+        border:0.2vw DarkTurquoise solid;
+        width:15vw;
+        height:19vw;
+        font-size: 0.85vw;
+        color: AliceBlue;
+        font-family:Century Gothic;
+}
+
+.Question{
+        flex:2;
+        order:3;
+        margin-top:-3vw;
+        padding:2vw;
+        border:0.2vw DarkTurquoise solid;
+        width:15vw;
+        height:15vw;
+        font-size: 0.85vw;
+        color: AliceBlue;
+        font-family:Century Gothic;
+}
+
+.Progress{
+        flex:0.5;
+        order:1;
+        margin-top:-3vw;
+        padding:2vw;
+        border:0.2vw DarkTurquoise solid;
+        width:15vw;
+        height:15vw;
+        font-size: 0.85vw;
+        color: AliceBlue;
+        font-family:Century Gothic;
+}
+
+#Unit{
+        padding:1vw;
+        border:0.2vw DarkTurquoise solid;
+        border-radius:1vw;
+        margin:5vw;
+        margin-top:1vw;
+        text-align:center;
+        font-size: 1.3vw;
+        color: AliceBlue;
+        font-family:Century Gothic;
+        background-color:DarkTurquoise;
+}
+
+.button{
+        display:block;
+        margin-top:2vw;
+        text-align:center;
+
+}
+
+.button a{
+        background-color:AliceBlue;
+        position:relative;
+        text-decoration:none;
+        font-family:Century Gothic;
+        color:DarkTurquoise;
+        font-weight:5vw;
+        font-size:1.2vw;
+        border: 0.1vw AliceBlue solid;
+        padding:1vw;
+        border-radius:0.5vw;
+        text-align:center;
+        transition:0.5s;
+}
+
+.button a:hover{
+        background-color: DarkTurquoise;
+        color:AliceBlue;
+        border: 0.1vw DarkTurquoise solid;
+}
